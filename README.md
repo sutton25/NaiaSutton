@@ -6,7 +6,7 @@ This project uses a teachable model to recognize a face and control an LED light
 This project used two trained models using Teachable Machine.
 1. Facial Recognition Model- Checks if it is my face, if yes, the LED turns green, if not the LED turns red and activates a buzzer until my face is in frame again.
 2. 2 classes where one consist of my face, and the other consists of a background or anything that isn't my face.
-3. "Exit"'s model if CTRL C is activated in the pyserial on Python.
+3. "Exit"'s model if CTRL C or ESC is activated in the pyserial on Python.
 
 These models work together to control the LED lights in the project.
 
